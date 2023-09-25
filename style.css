@@ -13,9 +13,21 @@ header {
     margin-top: 55px;
 
 }
-#autore{color:rgb(60, 191, 235);
+
+#autore {
+    color: rgb(60, 191, 235);
 }
 
-#intestazione{color: rgb(155, 155, 155);
+#intestazione {
+    color: rgb(155, 155, 155);
+
+}
+
+.lorem {
+    display: inline; /* Mostra il div come un blocco */
+    background-color: #FFD700; /* Imposta il colore di sfondo */
+    padding: 3px; /* Aggiunge spaziatura interna per il testo */
+    margin: 10px 0; /* Aggiunge spaziatura esterna se necessario */
+    
 
 }
