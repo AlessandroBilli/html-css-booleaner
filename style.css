@@ -24,10 +24,64 @@ header {
 }
 
 .lorem {
-    display: inline; /* Mostra il div come un blocco */
-    background-color: #FFD700; /* Imposta il colore di sfondo */
-    padding: 3px; /* Aggiunge spaziatura interna per il testo */
-    margin: 10px 0; /* Aggiunge spaziatura esterna se necessario */
+    display: inline;
+    
+    background-color: #FFD700;
+    
+    padding: 3px;
+    
+    margin: 10px 0;
     
 
+
 }
+
+table thead tr {
+    background-color: #21a3ca;
+    color: white;
+    height: 30px;
+    font-weight: bold;
+}
+
+table tbody tr {
+    background-color: white;
+}
+
+table tbody tr:first-child {
+    background-color: #00bfff;
+}
+
+table tbody tr:last-child {
+    background-color: #00bfff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.testo-sopra-immagine {
+    color: white;
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    padding: 10px;
+    
+    
+}
+#siticonsigliati{color: gray;
+                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
